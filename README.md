@@ -75,8 +75,6 @@ Open **http://127.0.0.1:8000**.
 > [!WARNING]
 > The first startup loads Laya's English and multilingual checkpoints into memory before the server accepts requests. That download can take several minutes. Wait until the terminal prints `Laya is in memory`. Later questions reuse those checkpoints. TypeSafe calls still need a network connection and a valid key.
 
-
-
 ## :white_check_mark: A run before you ship
 
 1. Switch to **Compare** and select every model still in the running. Use **Single model** only after one of them has already won.
