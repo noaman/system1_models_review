@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+laya
+dotenv
+typesafe-sdk
