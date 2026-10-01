@@ -16,6 +16,14 @@ A live feature often starts as a fuzzy ask: route this ticket, score this risk, 
 
 Paste the text or JSON a live request would see. Write it as a **Choice**, a **Score**, or a **Noul**. Run one model, or send that exact question to every model you are considering and read the answers side by side. When the probabilities, the disagreements, and the misses against your expected answers look right, copy the question into the live integration.
 
+**Single model.** One model answers the questions you filled in.
+
+![Single model. Laya answers a Choice and a Score on the same text, with a probability for every option and level.](screens/s1.png)
+
+**Compare.** The same questions go to every model still in the running. A split means the wording or the scale is not ready.
+
+![Compare. TypeSafe and Laya side by side. They split on the Choice and agree on the Score.](screens/s2.png)
+
 > [!IMPORTANT]
 > Until the models agree on the cases you care about, nothing is shipped. A single friendly example is not a go-live check.
 
